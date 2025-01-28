@@ -77,7 +77,20 @@ The project employs the following technologies and tools:
      - Prophet
 4. **Forecasting**:
    - Generate sales forecasts for various product categories and time periods.
-5. 5. **Insights & Recommendations**:
+  
+     ---
+
+## Results
+- Accurate forecasts for product categories, capturing seasonal variations and demand patterns.
+- monthly forecasting is more accurate than weekly forecasting for all models
+- From the three models (Prophet, ARIMA and Exponential Smoothing) tested, Prophet Model had the best performance.
+- Improved understanding of market trends and their impact on sales.
+- Recommendations for inventory management to reduce costs and enhance profitability.
+
+    
+     ---
+  
+ **Insights & Recommendations**:
    - ### Insights & Recommendations
 
      #### Data Integrity and Quality:
@@ -125,37 +138,6 @@ The project employs the following technologies and tools:
      - Develop targeted promotional campaigns for Spring, which shows the highest sales activity, to maximise revenue during this period.
      - Introduce clearance sales for outdated products before seasonal demand shifts.
 
-
----
-
-## Results
-- Accurate forecasts for product categories, capturing seasonal variations and demand patterns.
-- monthly forecasting is more accurate than weekly forecasting for all models
-- From the three models (Prophet, ARIMA and Exponential Smoothing) tested here, Prophet Model had the best performance.
-- Improved understanding of market trends and their impact on sales.
-- Recommendations for inventory management to reduce costs and enhance profitability.
-
----
-
-## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/ForecastEdge.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ForecastEdge
-   ```
-3. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-5. Run the notebook `Solution.ipynb` to explore the analysis and forecasting models.
-
 ---
 
 ## Future Work
@@ -163,8 +145,5 @@ The project employs the following technologies and tools:
 - Explore advanced interpretability methods (e.g., SHAP, LIME) to enhance trust in AI-assisted decision-making.
 - Extend the model to include promotional and external factors for improved accuracy.
 
----
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
