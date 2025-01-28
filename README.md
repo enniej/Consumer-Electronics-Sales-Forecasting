@@ -77,13 +77,61 @@ The project employs the following technologies and tools:
      - Prophet
 4. **Forecasting**:
    - Generate sales forecasts for various product categories and time periods.
-5. **Insights & Recommendations**:
-   - Provide actionable insights for inventory optimisation and strategic planning.
+5. 5. **Insights & Recommendations**:
+   - ### Insights & Recommendations
+
+     #### Data Integrity and Quality:
+     - **Missing Values**: There are no missing values in the dataset, ensuring data completeness for robust analysis.
+     - **Duplicate Rows**: The dataset contains no duplicate entries, which simplifies preprocessing and avoids data redundancy.
+
+     #### Category-Level Insights:
+     - The dataset includes four main product categories: **Laptop, Tablet, Smartphone, and Accessories**.
+     - Tablets constitute the largest category, with 34,370 entries, suggesting high demand or significant market activity in this segment.
+
+     #### Price Analysis:
+     - The average product price is approximately £106.81, with a range between £40.51 and £181.80.
+     - Accessories are likely to have lower average prices compared to Laptops and Smartphones, which may influence sales volume trends.
+
+     #### Market Trends:
+     - The **Market Trend Index** and **Competitor Activity Score** exhibit standardised distributions centred around zero. These metrics could be used to identify market booms or slumps and competitive pressures over time.
+
+     #### Sales Volume Distribution:
+     - The average sales volume is **122 units**, with some products achieving volumes as high as 306 units. High-sales products should be prioritised for inventory planning and promotions.
+
+     #### Consumer Confidence Index:
+     - The average consumer confidence score is 70, with a range from 40 to 99. This metric is critical for understanding demand sensitivity and aligning inventory with consumer sentiment.
+
+     #### Seasonality and Trends:
+     - Products are categorised into four seasons (**Spring, Summer, Autumn, Winter**). The majority of sales data are recorded for **Spring**, indicating potential seasonal peaks.
+     - Further analysis is needed to link specific product categories to seasonal demand patterns.
+
+   - ### Actionable Recommendations:
+
+     #### Inventory Optimisation:
+     - Focus on maintaining higher stock levels for Tablets, given their significant market activity.
+     - Leverage sales forecasts to align inventory levels with seasonal peaks, especially during Spring.
+
+     #### Market Strategy:
+     - Monitor the **Market Trend Index** and **Competitor Activity Score** to anticipate shifts in market demand and adjust pricing or promotional strategies accordingly.
+     - Capitalise on products with high sales volumes by bundling them with Accessories to boost overall revenue.
+
+     #### Consumer Confidence Alignment:
+     - Use consumer confidence data to predict and manage demand fluctuations, ensuring sufficient inventory during periods of high confidence.
+
+     #### Price-Based Targeting:
+     - For price-sensitive customers, promote Accessories and lower-cost Tablets. Highlight the premium features of Laptops and Smartphones to justify their pricing.
+
+     #### Seasonal Promotions:
+     - Develop targeted promotional campaigns for Spring, which shows the highest sales activity, to maximise revenue during this period.
+     - Introduce clearance sales for outdated products before seasonal demand shifts.
+
 
 ---
 
 ## Results
 - Accurate forecasts for product categories, capturing seasonal variations and demand patterns.
+- monthly forecasting is more accurate than weekly forecasting for all models
+- From the three models (Prophet, ARIMA and Exponential Smoothing) tested here, Prophet Model had the best performance.
 - Improved understanding of market trends and their impact on sales.
 - Recommendations for inventory management to reduce costs and enhance profitability.
 
